@@ -11,7 +11,7 @@ int main()
         vetor2[i] = vetor0[i] + vetor1[i];
     }
 
-    printf("Vetor: {%i", vetor0[0]);
+    printf("Vetor: {%i", vetor2[0]);
     for (int a = 1; a <= 15; a++) {
         printf(", %i", vetor2[a]);
     }
