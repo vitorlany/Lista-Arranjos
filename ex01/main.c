@@ -11,7 +11,17 @@ int main()
             soma += vetor0[j];
         }
         vetor1[i] = soma;
-        printf("[%i] %i\n", i, vetor1[i]);
     }
+    printf("Vetor A: {%i", vetor0[0]);
+    for (int a = 1; a < 15; a++) {
+        printf(", %i", vetor0[a]);
+    }
+    printf("}\n");
+
+    printf("Vetor B: {%i", vetor1[0]);
+    for (int b = 1; b < 15; b++) {
+        printf(", %i", vetor1[b]);
+    }
+    printf("}\n");
     return 0;
 }
