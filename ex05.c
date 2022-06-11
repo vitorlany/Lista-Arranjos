@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/*
+5 - Elaborar um programa que preencha com valores aleatórios 10 elementos do tipo inteiro em um vetor A. Ordene e
+imprima o vetor A.
+*/
+
 int main() {
     int vetor[10];
     srand(time(NULL));

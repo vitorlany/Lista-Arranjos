@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* 
+2 - Construir um programa que leia dois vetores A e B com 10 elementos quaisquer inteiros. Construir um vetor C,
+sendo este o resultado da união dos elementos de A e B – sem repetição. Apresentar C.
+*/
+
 int fazParte(int num, int vetor[]);
 
 int main() {
