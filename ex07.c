@@ -2,8 +2,17 @@
 #include <stdio.h>
 
 int main() {
+    int matriz[10][10];
     srand(time(NULL));
-    int numero = (rand() % (50 - 15 + 1)) + 15;
-    
+
+    for (int linha = 0; linha < 10; linha++) {
+        for (int coluna = 0; coluna < 10; coluna++) {
+            int numero = (rand() % (50 + 1 - 15) + 15);
+            matriz[linha][coluna] = numero; 
+            printf("%i ", matriz[linha][coluna]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
