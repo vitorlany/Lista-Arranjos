@@ -23,6 +23,5 @@ int main() {
         printf("[%i]Linha: %i\n", linha, soma);
     }
     
-    
     return 0;
 }
