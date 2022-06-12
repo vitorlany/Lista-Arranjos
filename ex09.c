@@ -21,11 +21,13 @@ int main() {
 }
 
 void procedimento(int matriz[10][10]) {
+    int soma = 0;
     for (int linha = 0; linha < 10; linha++) {
-        int soma = 0;
         for (int coluna = 0; coluna < 10; coluna++) {
-            soma += matriz[linha][coluna];
+            if (coluna == linha) {
+                soma += matriz[linha][coluna];
+            }
         }
-        printf("[%i]Linha: %i\n", linha, soma);
     }
+    printf("Soma: %i\n", soma);
 }
