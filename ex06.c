@@ -8,20 +8,20 @@ int main() {
     srand(time(NULL));
     int tamanho = 15;
     float vetor[15];
-    contruirVetor(&vetor[0], tamanho);
-    imprimirVetor(&vetor[0], tamanho);
+    contruirVetor(&vetor, tamanho);
+    imprimirVetor(&vetor, tamanho);
     return 0;
 }
 
 int contruirVetor(float * retorno, int tamanho) {
     for (int i = 0; i < tamanho; i++) {
-        *(retorno + i) = (rand() % (50 - 30 + 1)) + 30.00;
+        retorno[i] = (rand() % (50 - 30 + 1)) + 30.00;
     }
     return 0;
 }
 
 void imprimirVetor(float * vetor, int tamanho) {
     for (int i = 0; i < tamanho; i++) {
-        printf("%f\n", *(vetor + i));
+        printf("%f\n", vetor[i]);
     }
 }
