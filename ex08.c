@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/* 
+Escreva um procedimento que receba a matriz criada no exercício acima (passagem de parâmetro), imprimir o maior e o menor
+elemento da matriz bem como a posição de cada um.
+*/
+
 void procedimento(int matriz[10][10]);
 
 int main() {

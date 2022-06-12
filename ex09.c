@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/* 
+escreva um procedimento que receba a matriz do exercício 7 e imprima a soma dos elementos da diagonal
+*/
+
 void procedimento(int matriz[10][10]);
 
 int main() {

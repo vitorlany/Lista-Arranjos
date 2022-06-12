@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/* 
+Escreva um procedimento que receba a matriz do exercício 7 A partir do exercício número 1, peça um número qualquer e verifique se o
+número está ou não na matriz. Se estiver imprima a posição deste número e se não estiver imprima a mensagem valor não encontrado.
+*/
+
 void procedimento(int matriz[10][10], int numero);
 
 int main() {
