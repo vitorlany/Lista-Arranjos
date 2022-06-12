@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+void procedimento(int matriz[10][10]);
+
 int main() {
     int matriz[10][10] = {
         {31, 19, 23, 32, 42, 20, 17, 34, 45, 39},
@@ -14,7 +16,11 @@ int main() {
         {42, 39, 16, 30, 41, 50, 20, 50, 29, 40},
         {15, 27, 46, 23, 24, 26, 40, 46, 21, 48},
     };
+    procedimento(matriz);
+    return 0;
+}
 
+void procedimento(int matriz[10][10]) {
     for (int linha = 0; linha < 10; linha++) {
         int soma = 0;
         for (int coluna = 0; coluna < 10; coluna++) {
@@ -22,6 +28,4 @@ int main() {
         }
         printf("[%i]Linha: %i\n", linha, soma);
     }
-    
-    return 0;
 }
